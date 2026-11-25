@@ -1,0 +1,53 @@
+<svg width="640" height="300" viewBox="0 0 640 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dshbg-preview-sky" x1="320" y1="32" x2="320" y2="268" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7FA7D9" />
+      <stop offset="0.55" stop-color="#C9B9D8" />
+      <stop offset="1" stop-color="#F3C9A3" />
+    </linearGradient>
+    <linearGradient id="dshbg-preview-hill" x1="150" y1="190" x2="520" y2="268" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5E7FB0" />
+      <stop offset="1" stop-color="#6E5F8E" />
+    </linearGradient>
+    <radialGradient id="dshbg-preview-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(462 126) rotate(90) scale(74 78)">
+      <stop stop-color="#FFE9C9" />
+      <stop offset="1" stop-color="#FFE9C9" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="dshbg-preview-window">
+      <rect x="60" y="32" width="520" height="236" rx="16" />
+    </clipPath>
+  </defs>
+
+  <rect width="640" height="300" fill="#E8E9EC" />
+
+  <g clip-path="url(#dshbg-preview-window)">
+    <rect x="60" y="32" width="520" height="236" fill="url(#dshbg-preview-sky)" />
+    <circle cx="462" cy="126" r="78" fill="url(#dshbg-preview-glow)" />
+    <circle cx="462" cy="126" r="24" fill="#FFE9C9" />
+    <path d="M60 232C118 196 168 200 224 224C270 244 316 250 372 238C438 224 500 214 580 244V268H60V232Z" fill="url(#dshbg-preview-hill)" opacity="0.8" />
+    <path d="M60 252C140 226 214 236 288 254C352 269 430 268 580 250V268H60V252Z" fill="#4C4F6B" opacity="0.7" />
+
+    <rect x="60" y="32" width="520" height="236" fill="#FFFFFF" opacity="0.6" />
+
+    <rect x="196" y="32" width="1" height="236" fill="#000000" opacity="0.08" />
+
+    <rect x="78" y="54" width="46" height="10" rx="5" fill="#101216" opacity="0.42" />
+    <rect x="78" y="78" width="92" height="8" rx="4" fill="#101216" opacity="0.18" />
+    <rect x="78" y="96" width="72" height="8" rx="4" fill="#101216" opacity="0.18" />
+    <rect x="78" y="114" width="84" height="8" rx="4" fill="#101216" opacity="0.18" />
+
+    <rect x="232" y="88" width="316" height="44" rx="10" fill="#FFFFFF" opacity="0.9" />
+    <rect x="248" y="102" width="160" height="7" rx="3.5" fill="#101216" opacity="0.3" />
+    <rect x="248" y="116" width="104" height="7" rx="3.5" fill="#101216" opacity="0.16" />
+
+    <rect x="232" y="144" width="236" height="30" rx="8" fill="#FFFFFF" opacity="0.82" />
+    <rect x="246" y="155" width="120" height="7" rx="3.5" fill="#101216" opacity="0.2" />
+
+    <rect x="232" y="196" width="300" height="52" rx="12" fill="#FFFFFF" opacity="0.8" />
+    <rect x="232.5" y="196.5" width="299" height="51" rx="11.5" stroke="#101216" stroke-opacity="0.1" />
+    <rect x="250" y="212" width="180" height="8" rx="4" fill="#101216" opacity="0.22" />
+    <rect x="250" y="226" width="96" height="6" rx="3" fill="#101216" opacity="0.12" />
+  </g>
+
+  <rect x="60.75" y="32.75" width="518.5" height="234.5" rx="15.25" stroke="#FFFFFF" stroke-opacity="0.7" stroke-width="1.5" />
+</svg>

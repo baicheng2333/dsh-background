@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Background picture",
+    "description": "Puts a picture behind the whole window, under a theme-colored wash that keeps text readable; the composer card stays frosted and cards stay solid. Choose or drop an image in Settings → Background, then tune its strength and blur. The picture is scaled down and stored in this browser only, and disabling the plugin restores the default look.",
+    "detail": "docs/DETAIL.md"
+  }
+}
