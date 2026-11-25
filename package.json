@@ -2,7 +2,7 @@
   "name": "@local/dsh-background",
   "version": "1.0.0",
   "private": true,
-  "description": "Custom window background picture with translucent panels for the DSH Web GUI.",
+  "description": "Custom background picture for the DeepSeek Harness Web GUI: a window-wide picture under a theme-colored wash, with tunable strength and blur.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/baicheng2333/dsh-background.git"
