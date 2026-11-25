@@ -39,5 +39,13 @@
         "@deepseek-ai/dsh-client-ui-theme"
       ]
     }
-  }
+  },
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "background",
+    "theme"
+  ]
 }
