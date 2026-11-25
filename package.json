@@ -2,8 +2,16 @@
   "name": "@local/dsh-background",
   "version": "1.0.0",
   "private": true,
-  "type": "module",
   "description": "Custom window background picture with translucent panels for the DSH Web GUI.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baicheng2333/dsh-background.git"
+  },
+  "homepage": "https://github.com/baicheng2333/dsh-background#readme",
+  "bugs": {
+    "url": "https://github.com/baicheng2333/dsh-background/issues"
+  },
+  "type": "module",
   "exports": {
     ".": "./index.js",
     "./client": "./client.js",
